@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/paulbarre/simple-flex-grid.git"
   },
-  "main": "src/index.js",
+  "main": "dist/simple-flex-grid.min.js",
   "scripts": {
     "build": "webpack"
   },
