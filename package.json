@@ -1,0 +1,16 @@
+{
+  "name": "@paulbarre/simple-flex-grid",
+  "version": "0.1.0",
+  "description": "Easy-to-use grid based on Flexbox in pure CSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulbarre/simple-flex-grid.git"
+  },
+  "keywords": ["easy", "css", "responsive", "grid", "layout", "flex", "flexbox"],
+  "author": "Paul Barré",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/paulbarre/simple-flex-grid/issues"
+  },
+  "homepage": "https://github.com/paulbarre/simple-flex-grid#readme"
+}
