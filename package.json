@@ -6,6 +6,10 @@
     "type": "git",
     "url": "git+https://github.com/paulbarre/simple-flex-grid.git"
   },
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "keywords": [
     "easy",
     "css",
@@ -26,6 +30,11 @@
   },
   "homepage": "https://github.com/paulbarre/simple-flex-grid#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "terser-webpack-plugin": "^1.4.1",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
   }
