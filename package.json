@@ -6,11 +6,23 @@
     "type": "git",
     "url": "git+https://github.com/paulbarre/simple-flex-grid.git"
   },
-  "keywords": ["easy", "css", "responsive", "grid", "layout", "flex", "flexbox"],
+  "keywords": [
+    "easy",
+    "css",
+    "responsive",
+    "grid",
+    "layout",
+    "flex",
+    "flexbox"
+  ],
   "author": "Paul Barré",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/paulbarre/simple-flex-grid/issues"
   },
-  "homepage": "https://github.com/paulbarre/simple-flex-grid#readme"
+  "homepage": "https://github.com/paulbarre/simple-flex-grid#readme",
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
 }
