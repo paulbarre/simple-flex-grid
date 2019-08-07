@@ -8,7 +8,8 @@
   },
   "main": "dist/simple-flex-grid.min.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "prepare": "npm run build"
   },
   "keywords": [
     "easy",
