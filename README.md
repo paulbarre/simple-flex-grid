@@ -16,9 +16,13 @@ Simple Flex Grid provides you a CSS grid layout.
 6. It is flex
 7. And it is nothing else than a grid
 
+## What is a responsive grid?
+
+A grid is useful
+
 ## Notes
 
-Breakpoints are based on [Vuetify], while `container` class width is based on [Bootstrap]
+Breakpoints are based on [Material Design Viewport Breakpoints], while `container` class width is based on [Bootstrap]
 
 ## Installation
 
@@ -28,10 +32,21 @@ Breakpoints are based on [Vuetify], while `container` class width is based on [B
 npm i -D @paulbarre/simple-flex-grid
 ```
 
-**Via CDN**
+Then into your main javascript file (ES6 module):
 
-```html
-<link href="" rel="stylesheet">
+```js
+import '@paulbarre/simple-flex-grid'
 ```
 
 ## Breakpoints
+
+Device|Code|Types|Range|Container max-width
+:-|:-|:-|:-|:-|:-
+Extra small|xs|small to large handset|< 600px|none
+Small|sm|small to medium tablet|600px > < 960px|540px
+Medium|md|large tablet to laptop|960px > < 1264|720px
+Large|lg|desktop|1264 > < 1904px|960px
+Extra large|xl|4k and ultra-wides|> 1904px|1140px
+
+## Grid
+
