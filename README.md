@@ -2,11 +2,11 @@
 
 Easy-to-use grid based on Flexbox in pure CSS.
 
-## Why will it be useful to me?
+## Why will it be useful?
 
-If you are implementing a website with a simple responsive layout, using [Bootstrap] or other frameworks can be time loss with unuseful CSS, or make you import more that you need.
+Using [Bootstrap](https://getbootstrap.com/docs/4.3/layout/grid/) or other frameworks can be time loss with unuseful CSS, or make import more that what your app needs.
 
-Simple Flex Grid provides you a CSS grid layout.
+Simple Flex Grid goals:
 
 1. It is in pure CSS
 2. It is small
@@ -14,15 +14,11 @@ Simple Flex Grid provides you a CSS grid layout.
 4. It doesn't change your colors
 5. It is simple
 6. It is flex
-7. And it is nothing else than a grid
-
-## What is a responsive grid?
-
-A grid is useful
+7. It is responsive
 
 ## Notes
 
-Breakpoints are based on [Material Design Viewport Breakpoints], while `container` class width is based on [Bootstrap]
+Grid breakpoints and `container` class max-width are based on [Bootstrap](https://getbootstrap.com/docs/4.3/layout/grid/).
 
 ## Installation
 
@@ -35,7 +31,7 @@ npm i -D @paulbarre/simple-flex-grid
 Then into your main javascript file (ES6 module):
 
 ```js
-import '@paulbarre/simple-flex-grid'
+import '@paulbarre/simple-flex-grid/dist/simple-flex-grid.min.css'
 ```
 
 ## Breakpoints
@@ -48,5 +44,15 @@ Medium|md|large tablet to laptop|960px > < 1264|720px
 Large|lg|desktop|1264 > < 1904px|960px
 Extra large|xl|4k and ultra-wides|> 1904px|1140px
 
-## Grid
+## Classes
 
+* `row`: define responsive layout.
+* `column`: the tag that has to be responsive.
+* `<breakpoint>[1-12]`: the tag will covere 1 to 12 columns for the designated breakpoint.
+* `<breakpoint>`: the tag will be hidden until the breakpoint is triggered.
+* `<breakpoint>0`: the tag will be hidden when the breakpoint is triggered.
+* `container`: this class will set margins around the grid layout. Not required if the rows have to covered the full width of the page.
+
+## Examples
+
+Check out the `examples` for a short example. More examples to come.
