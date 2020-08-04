@@ -1,11 +1,19 @@
 # Changelog
 
-## 1.0.1
+## 1.0.2 (2020-8-4)
 
 **Fixed**
 
-* Update `package-lock.json` to prevent vulnerabilities.
+🚨 Update `package-lock.json` to prevent vulnerabilities.
 
-## 1.0.0
+📄 Clean `README.md` document format.
 
-Initial release
+## 1.0.1 (2020-4-14)
+
+**Fixed**
+
+🚨 Update `package-lock.json` to prevent vulnerabilities.
+
+## 1.0.0 (2019-8-8)
+
+🚀 Initial release
