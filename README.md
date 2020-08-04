@@ -36,13 +36,13 @@ import '@paulbarre/simple-flex-grid/dist/simple-flex-grid.min.css'
 
 ## Breakpoints
 
-Device|Code|Types|Range|Container max-width
-:-|:-|:-|:-|:-|:-
-Extra small|xs|small to large handset|< 600px|none
-Small|sm|small to medium tablet|600px > < 960px|540px
-Medium|md|large tablet to laptop|960px > < 1264|720px
-Large|lg|desktop|1264 > < 1904px|960px
-Extra large|xl|4k and ultra-wides|> 1904px|1140px
+| Device      | Code | Types                  | Range           | Container max-width |
+| :---------- | :--- | :--------------------- | :-------------- | :------------------ |
+| Extra small | xs   | small to large handset | < 600px         | none                |
+| Small       | sm   | small to medium tablet | 600px > < 960px | 540px               |
+| Medium      | md   | large tablet to laptop | 960px > < 1264  | 720px               |
+| Large       | lg   | desktop                | 1264 > < 1904px | 960px               |
+| Extra large | xl   | 4k and ultra-wides     | > 1904px        | 1140px              |
 
 ## Classes
 
