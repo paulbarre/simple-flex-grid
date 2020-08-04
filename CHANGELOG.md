@@ -5,6 +5,7 @@
 **Fixed**
 
 🚨 Update `package-lock.json` to prevent vulnerabilities.
+
 📄 Clean `README.md` document format.
 
 ## 1.0.1 (2020-4-14)
