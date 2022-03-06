@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0 (2022-3-6)
+
+🔑 From now this repository is under MIT license
+
 ## 1.0.2 (2020-8-4)
 
 **Fixed**
