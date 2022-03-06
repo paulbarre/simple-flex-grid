@@ -21,7 +21,7 @@
     "flexbox"
   ],
   "author": "Paul Barré",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bugs": "https://github.com/paulbarre/simple-flex-grid/issues",
   "homepage": "https://github.com/paulbarre/simple-flex-grid#readme",
   "devDependencies": {
